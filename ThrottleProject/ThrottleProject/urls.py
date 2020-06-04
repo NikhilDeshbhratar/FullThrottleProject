@@ -21,7 +21,7 @@ from django.conf.urls import url, include
 from json_app.views import JsonViewSet
 
 router = routers.DefaultRouter()
-router.register(r'json_data', JsonViewSet)
+router.register(r'members', JsonViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls))

@@ -26,7 +26,7 @@ SECRET_KEY = 'g#xs!7d6uy1on!ae%o28q20fai+p74e@*uu^#g=k_-93hj5q&p'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['json-data-app.herokuapp.com']
+ALLOWED_HOSTS = ['throttle-labs-app.herokuapp.com']
 CORS_ORIGIN_ALLOW_ALL = True
 
 
@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'ThrottleProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd700d4em7095t8',
-        'USER': 'atdugoggenimap',
-        'PASSWORD': 'e2c11a12b8a9eeb84991c902b7a4fbb4acdd65886543bc58dc3200c0f1c0ad32',
-        'HOST': 'ec2-3-222-30-53.compute-1.amazonaws.com',
+        'NAME': 'dagr7knv0d90bp',
+        'USER': 'bnmdqdyatzcgwr',
+        'PASSWORD': '289165e01374b6c3eeb5e910d9c89ec18738e48ebf80fa703fa2019eed30b4b4',
+        'HOST': 'ec2-34-200-72-77.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
